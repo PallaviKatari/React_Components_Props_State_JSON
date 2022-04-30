@@ -4,6 +4,28 @@
 
 .img1
 {
-  height: 100px;
-  width:100px;
+  height: 50px;
+  width:50px;
+}
+
+.count
+{
+  margin-left: 170px;
+  width: 70px;
+  color:blue;
+  font-size: 20px;
+  font-weight: bold;
+
+}
+
+Button
+{
+  margin-left: 100px;
+  width: 70px;
+  border-radius: 5px;
+  border-color: blueviolet;
+  border-style: dashed;
+  color:blue;
+  font-size: 20px;
+  font-weight: bold;
 }
