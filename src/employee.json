@@ -1,0 +1,43 @@
+[
+    {
+        "id": "1",
+        "title": "Developer",
+        "firstName": "John",
+        "lastName": "Eric",
+        "salary": 5000,
+        "path": "https://www.pepperhub.in/wp-content/uploads/2020/11/user-male.png"
+    },
+    {
+        "id": "2",
+        "title": "Tester",
+        "firstName": "Andrew",
+        "lastName": "Johnson",
+        "salary": 6000,
+        "path": "https://www.pepperhub.in/wp-content/uploads/2020/11/user-male.png"
+    },
+    {
+        "id": "3",
+        "title": "HR",
+        "firstName": "Andria",
+        "lastName": "Johnson",
+        "salary": 6000,
+        "path": "https://www.pepperhub.in/wp-content/uploads/2020/11/user-male.png"
+    },
+    {
+        "id": "4",
+        "title": "Trainer",
+        "firstName": "Amy",
+        "lastName": "Johnson",
+        "salary": 6000,
+        "path": "https://www.pepperhub.in/wp-content/uploads/2020/11/user-male.png"
+    },
+    {
+        "id": "5",
+        "title": "Trainer",
+        "firstName": "John",
+        "lastName": "Johnson",
+        "salary": 6000,
+        "path": "https://www.pepperhub.in/wp-content/uploads/2020/11/user-male.png"
+    }
+
+]

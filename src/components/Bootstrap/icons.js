@@ -12,7 +12,7 @@ class Icons extends Component {
 	render() {
 		return (
 			<div>
-				<GiPoliceBadge size="50px" color="green"/>
+				<GiPoliceBadge size="50px" color="black"/>
 				<MdAndroid size="50px" color="yellow" />
 				<GoBroadcast size="50px" color="purple"/>
 				<FaAmazon size="50px" color="black" />

@@ -1,31 +1,35 @@
 import React from 'react';
 //Boostrap npm install react-bootstrap-validation --save
-import { Navbar, Container, Nav, NavDropdown } from 'react-bootstrap';
 
 function NavComponent()
 {
 return (
     //Bootstrap Navbar
     <div className="App">
-      <Navbar fixed='top' bg="secondary" expand="lg">
-        <Container>
-          <Navbar.Brand href="#home"></Navbar.Brand>
-          <Navbar.Toggle aria-controls="basic-navbar-nav" />
-          <Navbar.Collapse id="basic-navbar-nav">
-            <Nav className="me-auto">
-              <Nav.Link href="#home">Home</Nav.Link>
-              <Nav.Link href="#link">Link</Nav.Link>
-              <NavDropdown title="Dropdown" id="basic-nav-dropdown">
-                <NavDropdown.Item href="#"></NavDropdown.Item>
-                <NavDropdown.Item href="#action/3.2">Item 2</NavDropdown.Item>
-                <NavDropdown.Item href="#action/3.3">Item 3</NavDropdown.Item>
-                <NavDropdown.Divider />
-                <NavDropdown.Item href="#action/3.4">Separated Item</NavDropdown.Item>
-              </NavDropdown>
-            </Nav>
-          </Navbar.Collapse>
-        </Container>
-      </Navbar>
+     <nav class="navbar navbar-inverse navbar-fixed-top" >  
+  <div class="container-fluid">  
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+    </button>
+      <a class="navbar-brand" href="#">ABC</a>  
+    </div>       
+      <div class="collapse navbar-collapse" id="myNavbar">
+    <ul class="nav navbar-nav">  
+      <li class="active"><a a href="">Home</a></li>  
+      <li class="dropdown"><a a href="">About</a>        
+      </li>  
+      <li><a a href="">Contact</a></li>  
+    </ul> 
+    <ul class="nav navbar-nav navbar-right">  
+      <li><a href=""><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>  
+      <li><a href=""><span class="glyphicon glyphicon-log-in"></span> Login</a></li>  
+    </ul>   
+  </div> 
+  </div>  
+</nav>
       </div>
       )
       }

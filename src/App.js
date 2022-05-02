@@ -1,4 +1,6 @@
 import React from 'react';
+//npm install react-router-dom --save
+//import { BrowserRouter, Switch, Route, NavLink } from 'react-router-dom';
 //React logo
 //import logo from './logo.svg';
 //Boostrap npm install react-bootstrap-validation --save
@@ -13,15 +15,17 @@ import NavComponent from './components/Bootstrap/Nav';
 import Icons from './components/Bootstrap/icons';
 import { FaAmazon } from "react-icons/fa";
 import ButtonComponent from './components/Bootstrap/ButtonCounter';
+
 function App() {
   return (
-    //Bootstrap Navbar
     
+    //Bootstrap Navbar    
     <div className="App">
        <NavComponent/><br></br><br></br><br></br><br></br>
         <Icons/>
         <FaAmazon size="50px" color="black" />
         <ButtonComponent/>
+        
     {/*   <Navbar fixed='top' bg="secondary" expand="lg">
     //     <Container>
     //       <Navbar.Brand href="#home"><img
@@ -89,7 +93,7 @@ function JsonDataDisplay()
   )
   return (
     <div>
-      <table class="table table-striped">
+      <table class="table table-striped table-hover">
         <thead>
           <tr>
             <th>Profile</th>
@@ -103,7 +107,34 @@ function JsonDataDisplay()
         </tbody>
       </table>
     </div>
+
   )
 }
 
 export default App;
+
+// frontend/src/App.js file
+
+// import React, { Component } from "react";
+// import { BrowserRouter, Route, Routes } from "react-router-dom";
+// import Home from "./components/Home/Home";
+// import About from "./components/About/About";
+// import Contact from "./components/Contact/Contact";
+
+// class App extends Component {
+//   render() {
+//     return (
+//       <div>
+//         <BrowserRouter>
+//           <Routes>
+//             <Route path="/about" component={About} />
+//             <Route path="/contact" component={Contact} />
+//             <Route exact path="/" component={Home} />
+//           </Routes>
+//         </BrowserRouter>
+//       </div>
+//     );
+//   }
+// }
+
+// export default App;
